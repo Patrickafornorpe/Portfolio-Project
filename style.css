@@ -1,0 +1,239 @@
+body{
+font-family: Barlow;
+padding-left: 165px;
+/* border: 1px solid black; */
+}
+
+main {
+max-width: 1110px;
+}
+
+nav{
+height: 58px;
+display: flex;
+align-items: center;
+width: 100%;
+}
+
+
+.navigation-svg{
+width: 40px;
+height: 40px;
+background-color: #F16718;
+
+}
+
+.preorder{
+display: flex;
+width: 175px;
+height: 58px;
+border-radius: 5%;
+background-color: #E8EFF2;
+color: #162542;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+font-weight: bold;
+margin-left: 895px;
+}
+
+.typemaster-box{
+display: flex;
+margin-top: 83px;
+
+}
+.typemaster-keyboard{
+display: flex;
+align-items: center;
+}
+
+.typemaster-details{
+width: 445px;
+height: 312px;
+display: inline-block;
+}
+    
+h1{
+font-size: 56px;
+color: #162542;
+}
+
+.typemaster-details p{
+color: #7B8BAD;
+font-size: 18px;
+}
+
+
+.order-details{
+display: flex;
+align-items: center;
+}
+
+.preorder1, .release{
+font-weight: bold;
+text-transform: uppercase;
+}
+.preorder1{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 175px;
+height: 58px;
+background-color: #F16718;
+font-size: 16px;
+color: white;
+border-radius: 5%;
+}
+
+.release{
+color: #7B8BAD;
+margin-left: 30px;
+font-size: 16px;
+}
+
+
+.image1 img{
+width: 540px;
+height: 480px;
+border-radius: 5%;
+position: relative;
+left: 125px;
+
+}
+
+.empty-box{
+width: 255px;
+height: 240px;
+border-radius: 5%;
+background-color: #E8EFF2;
+position: relative; 
+left: 155px;
+
+}
+
+.wireless-box{
+display: flex;
+}
+
+.empty{
+width: 255px;
+height: 236px;
+border-radius: 5%;
+background-color: #E8EFF2;
+position: relative;
+top: 240px;
+bottom: 0;
+right: 195px;
+overflow:hidden;
+
+}
+.wireless-keyboard{
+display: flex;
+align-items: center;
+position: relative;
+right: 165px;
+margin-top: 30px;
+}
+
+.image2{
+position: relative;
+}
+
+.image2 img{
+width: 255px;
+height: 480px;
+border-radius: 5%;
+
+} 
+
+.image2-color{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background-color: #F16718;
+opacity: 0.8;
+border-radius: 5%;
+
+}
+
+.image3 img{
+width: 445px;
+height: 480px;
+border-radius: 5%;
+position: relative;
+left: 30px;
+}
+
+.wireless-details{
+width: 255px;
+height: 265px;
+position: relative;
+left: 125px;
+}
+
+h2{
+font-size: 32px;
+color: #162542;
+text-transform: uppercase;
+}
+
+p{
+font-size: 16px;
+color: #7B8BAD;
+}
+
+
+.features{
+display: flex;
+margin-top: 50px;
+}
+
+.svg{
+height: 65px;
+width: 65px;
+background-color: #F16718;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+h3{
+text-transform: uppercase;
+font-size: 24px;
+color: #162542;
+}
+.wire{
+width: 255px;
+height: 323px;
+}
+
+
+.footer{
+width: 1100px;
+text-align: center;   
+margin-top: 128px;
+}
+
+span{
+font-weight: bold;
+}
+
+/* Media Queries */
+@media only screen and (max-width:768px){
+    body{
+        padding-left: 39px;
+    }
+    
+    main{
+        max-width: 689px;
+    }
+
+    nav{
+        display: flex;
+        width: 100%;
+    }
+}
