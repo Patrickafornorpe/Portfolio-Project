@@ -17,12 +17,6 @@ body{
         padding: 0;
         margin: 0;
     }
-
-    .navigation-item:last-child{
-        /*     text-decoration: none; */
-            
-        }
-        
         .navigation-item:last-child a{
             text-decoration: none;
             color: #000;
