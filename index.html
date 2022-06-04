@@ -3,74 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+ 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link href="./style.css" rel="stylesheet" type="text/css">
   
   <title>Frontend Mentor | Typemaster pre-launch landing page</title>
 </head>
 <body>
-  <main>
-    <nav class="navigation">
-      <div class="navigation-svg" ><img src="./assets/shared/logo.svg"></div>
-      <div class="preorder">PRE-ORDER NOW</div>
-    </nav>
-    <div class="typemaster-box">
-      <div class="typemaster-keyboard">
-        <div class="typemaster-details" >
-          <h1>TYPEMASTER KEYBOARD</h1>
-          <p>Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
-            mechanical typing experience.</p>
-          <div class="order-details">  
-            <div class="preorder1">Pre-order now</div>
-            <div class="release">Release on 5/27</div>
+  <main class="main">
+
+    <!-- NAVIGATION -->
+      <nav class="navigation">
+        <ul class="naviation-items">
+          <li class="navigation-item"><img src="./assets/shared/logo.svg"></li>
+          <li class="navigation-item"><a href="#" class="">PRE-ORDER NOW</a></li>
+        </ul>
+      </nav> 
+    <!-- ./ NAVIGATION -->
+
+    <!-- PRODUCT INFO -- START -->
+    <div class="container">
+      <div class="typemaster-box">
+        <div class="typemaster-keyboard">
+          <div class="typemaster-details" >
+            <h1>TYPEMASTER KEYBOARD</h1>
+            <p>Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
+              mechanical typing experience.</p>
+            <div class="order-details">  
+              <div class="preorder1"> <a href="#" class="preorder-link">Pre-order now</a> </div>
+              <div class="release">Release on 5/27</div>
+            </div>
+          </div>
+          <div class="image1"><img src="./assets/desktop/image-keyboard.jpg"></div>  
+        </div>
+        <div class="empty-box"></div>
+      </div>  
+    
+    <!-- PRODUCT INFO -- END -->
+
+      <div class="wireless-box">
+        <div class="empty"></div>
+        <div class="wireless-keyboard">
+          <div class="image2">
+            <img src="./assets/desktop/image-phone-and-keyboard.jpg">
+            <div class="image2-color"></div>
+          </div>
+          <div class="image3"><img src="./assets/desktop/image-glass-and-keyboard.jpg"></div>
+          <div class="wireless-details" >
+            <h2>Mechanical wireless keyboard</h2>
+            <p>The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
+              of switches and keycaps, along with reliable wireless connectivity.</p>
           </div>
         </div>
-        <div class="image1"><img src="./assets/desktop/image-keyboard.jpg"></div>  
-      </div>
-      <div class="empty-box"></div>
-    </div>    
-    <div class="wireless-box">
-      <div class="empty"></div>
-      <div class="wireless-keyboard">
-        <div class="image2">
-          <img src="./assets/desktop/image-phone-and-keyboard.jpg">
-          <div class="image2-color"></div>
+      </div>    
+      <div class="features">
+        <div class="wire compatibility">
+          <div class="svg compatible" ><img src="./assets/shared/icon-compatible.svg"></div>
+          <h3>Highly compatible</h3>
+          <p>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
+            Plug & play, no installation or driver needed.</p>
         </div>
-        <div class="image3"><img src="./assets/desktop/image-glass-and-keyboard.jpg"></div>
-        <div class="wireless-details" >
-          <h2>Mechanical wireless keyboard</h2>
-          <p>The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
-            of switches and keycaps, along with reliable wireless connectivity.</p>
+        <div class="wire bluetooth">
+          <div class="svg bluetooth" ><img src="./assets/shared/icon-bluetooth.svg"></div>
+          <h3>Wireless with bluetooth</h3>
+          <p>Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. 
+            Simply plug the unifying receiver into your computer.</p>
+        </div>
+        <div class="wire battery">
+          <div class="svg battery" ><img src="./assets/shared/icon-battery.svg"></div>
+          <h3>High capacity battery</h3>
+          <p>Equipped with a long-lasting built-in battery, you'll never have to spend a dime on replaceable ones.
+            Enjoy 40 hours of usage time between charges..</p>
+        </div>
+        <div class="wire light">
+          <div class="svg light" ><img src="./assets/shared/icon-light.svg"></div>
+          <h3>RGB backlit modes</h3>
+          <p>Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps
+            you type in low light conditions.</p>
         </div>
       </div>
-    </div>    
-    <div class="features">
-      <div class="wire compatibility">
-        <div class="svg compatible" ><img src="./assets/shared/icon-compatible.svg"></div>
-        <h3>Highly compatible</h3>
-        <p>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
-          Plug & play, no installation or driver needed.</p>
-      </div>
-      <div class="wire bluetooth">
-        <div class="svg bluetooth" ><img src="./assets/shared/icon-bluetooth.svg"></div>
-        <h3>Wireless with bluetooth</h3>
-        <p>Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. 
-          Simply plug the unifying receiver into your computer.</p>
-      </div>
-      <div class="wire battery">
-        <div class="svg battery" ><img src="./assets/shared/icon-battery.svg"></div>
-        <h3>High capacity battery</h3>
-        <p>Equipped with a long-lasting built-in battery, you'll never have to spend a dime on replaceable ones.
-          Enjoy 40 hours of usage time between charges..</p>
-      </div>
-      <div class="wire light">
-        <div class="svg light" ><img src="./assets/shared/icon-light.svg"></div>
-        <h3>RGB backlit modes</h3>
-        <p>Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps
-          you type in low light conditions.</p>
-      </div>
+
     </div>
+  
   </main>
   <div class="footer">
     <p><span>Typemaster 2021 </span>| All Rights Reserved</p>
