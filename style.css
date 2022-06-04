@@ -1,22 +1,46 @@
 body{
 font-family: Barlow;
-padding-left: 165px;
-/* border: 1px solid black; */
-}
-
-main {
-max-width: 1110px;
-}
-
-nav{
-height: 58px;
-display: flex;
-align-items: center;
-width: 100%;
+/* padding-left: 165px;
+max-width: 1440px; */
+    background-color: #FFFFFF;
+    position: relative;
 }
 
 
-.navigation-svg{
+.container {
+max-width: 1440px;
+/* margin: 0 auto; */
+}
+
+.container1{
+max-width: 1440px;
+margin: 0 auto;
+}
+
+.navigation {
+    position: block;
+}
+
+
+.naviation-items{
+    /* height: 58px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 58px;
+    list-style: none;
+}
+
+.naviation-item button{
+    background-color: #E8EFF2;
+    padding: 12px;
+    outline: none;
+}
+
+
+/* .navigation-svg{
 width: 40px;
 height: 40px;
 background-color: #F16718;
@@ -35,13 +59,29 @@ justify-content: center;
 font-size: 16px;
 font-weight: bold;
 margin-left: 895px;
-}
+} */
 
 .typemaster-box{
 display: flex;
 margin-top: 83px;
-
+position: relative;
+overflow-x: hidden;
 }
+/* .empty-box { */
+    /* position: absolute;
+width: 255px;
+height: 240px;
+left: 1305px;
+top: 196px; */
+/* width: 255px;
+height: 240px; */
+/* border-radius: 5%;
+background-color: #E8EFF2; */
+/* position: absolute; 
+top: 0px; 
+left: 1166px; */
+/* } */
+    
 .typemaster-keyboard{
 display: flex;
 align-items: center;
@@ -98,21 +138,12 @@ height: 480px;
 border-radius: 5%;
 position: relative;
 left: 125px;
-
-}
-
-.empty-box{
-width: 255px;
-height: 240px;
-border-radius: 5%;
-background-color: #E8EFF2;
-position: relative; 
-left: 155px;
-
 }
 
 .wireless-box{
 display: flex;
+position: relative;
+margin-top: 30px;
 }
 
 .empty{
@@ -120,19 +151,14 @@ width: 255px;
 height: 236px;
 border-radius: 5%;
 background-color: #E8EFF2;
-position: relative;
-top: 240px;
-bottom: 0;
-right: 195px;
-overflow:hidden;
-
+position: absolute;
+top: 51%;
+left: -25%;
 }
+
 .wireless-keyboard{
 display: flex;
 align-items: center;
-position: relative;
-right: 165px;
-margin-top: 30px;
 }
 
 .image2{
@@ -233,7 +259,14 @@ font-weight: bold;
     }
 
     nav{
-        display: flex;
         width: 100%;
+    }
+    .empty-box {
+    width: 0px;
+    height: 0px;
+    }
+    .empty {
+    width: 0px;
+    height: 0px;
     }
 }
