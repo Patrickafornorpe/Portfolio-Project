@@ -24,8 +24,8 @@ body{
         transition: background 0.75s;
         }
         .navigation-item:last-child a:hover{
-            color: #fff;
-            background: #7B8BAD;
+        color: #fff;
+        background: #7B8BAD;
         }
         .navigation-item:last-child a:active{
         color: #fff;
