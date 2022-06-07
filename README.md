@@ -1,2 +1,2 @@
 # Portfolio-Project
-This contains the HTML and CSS file for my typesmaster page.
+This contains files that have meqia queries for all screens and its modification
